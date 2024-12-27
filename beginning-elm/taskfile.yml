@@ -1,0 +1,7 @@
+version: '3'
+
+tasks:
+  make:
+    desc: compile HomePage.elm to JavaScript
+    cmds:
+      - elm make src/HomePage.elm --output elm.js

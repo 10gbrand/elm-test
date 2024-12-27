@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.7/.schema/devbox.schema.json",
+  "packages": [
+    "go-task@latest",
+    "elmPackages.elm@0.19.1",
+    "elmPackages.elm-doc-preview@5.0.5",
+    "elmPackages.elm-format@0.8.7",
+    "elmPackages.elm-optimize-level-2@2-0.3.5",
+    "elmPackages.elm-test@0.19.1-revision12",
+    "elmPackages.elm-review@2.12.0"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
