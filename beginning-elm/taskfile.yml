@@ -2,6 +2,14 @@ version: '3'
 
 tasks:
   make:
-    desc: compile HomePage.elm to JavaScript
+    desc: compile HomePage.elm to JavaScript with existing index.html
     cmds:
       - elm make src/HomePage.elm --output elm.js
+  make2:
+    desc: compile HomePage.elm to JavaScript and creates new index.html
+    cmds:
+      - elm make src/HomePage.elm
+  install-packages:
+    desc: install Elm packages
+    cmds:
+      - elm install elm/http

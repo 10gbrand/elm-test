@@ -5,6 +5,7 @@ Testar lite Elm
 ## Bokmärken
 
 - [241227](https://elmprogramming.com/elm-platform.html)
+- [241228](https://elmprogramming.com/elm-reactor.html)
 
 ---
 ## Lästips
