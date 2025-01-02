@@ -5,11 +5,23 @@ tasks:
     desc: compile HomePage.elm to JavaScript with existing index.html
     cmds:
       - elm make src/HomePage.elm --output elm.js
+
   make2:
     desc: compile HomePage.elm to JavaScript and creates new index.html
     cmds:
       - elm make src/HomePage.elm
+
   install-packages:
     desc: install Elm packages
     cmds:
       - elm install elm/http
+
+  reactor:
+    desc: interactive development tool called elm reactor that lets us see the result of our code instantly https://elmprogramming.com/elm-reactor.html. Exit out of it by pressing Ctrl + c
+    cmds:
+      - elm reactor
+
+  repl:
+    desc: enter some Elm code, evaluates it, prints out the result, and goes back to waiting for more code. Exit out of it by pressing Ctrl + d
+    cmds:
+     - elm repl
